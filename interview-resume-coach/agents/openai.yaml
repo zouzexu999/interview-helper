@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Resume Coach"
+  short_description: "中文技术岗简历项目面试作战助手。"
+  default_prompt: "Use $interview-resume-coach to prepare Chinese technical interview answers from my resume projects."
