@@ -284,7 +284,7 @@ def extract(path: Path) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("input", nargs="?", default="interview-resume-coach/user-resumes")
+    parser.add_argument("input", nargs="?", default="interview-helper/user-resumes")
     parser.add_argument("--out", default="")
     args = parser.parse_args()
 
@@ -326,3 +326,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

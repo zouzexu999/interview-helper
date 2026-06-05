@@ -1,6 +1,6 @@
 # Personal/private materials. Put real resumes and JD files here.
-interview-resume-coach/user-resumes/*
-!interview-resume-coach/user-resumes/.gitkeep
+interview-helper/user-resumes/*
+!interview-helper/user-resumes/.gitkeep
 personal/
 private/
 resumes/
@@ -28,3 +28,4 @@ Thumbs.db
 # Python cache
 __pycache__/
 *.pyc
+

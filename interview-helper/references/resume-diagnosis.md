@@ -89,3 +89,4 @@ Not allowed:
 - pretend course projects are production systems
 - claim team leadership without evidence
 - imply the candidate solved high concurrency if no scale is provided
+

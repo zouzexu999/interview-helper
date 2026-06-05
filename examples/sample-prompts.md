@@ -3,35 +3,36 @@
 ## 简历诊断
 
 ```text
-使用 $interview-resume-coach，读取我的简历，帮我诊断后端项目面试准备情况。请指出亮点、薄弱点、可能被追问的问题，以及哪些地方不能说太满。
+使用 $interview-helper，读取我的简历，帮我诊断后端项目面试准备情况。请指出亮点、薄弱点、可能被追问的问题，以及哪些地方不能说太满。
 ```
 
 ## Go 后端项目吟唱
 
 ```text
-使用 $interview-resume-coach，面试官问：介绍一下你的在线题库系统。请基于简历生成一个 Go 后端方向的 2 分钟项目吟唱版，并给出可能追问。
+使用 $interview-helper，面试官问：介绍一下你的在线题库系统。请基于简历生成一个 Go 后端方向的 2 分钟项目吟唱版，并给出可能追问。
 ```
 
 ## C++ 后端深挖
 
 ```text
-使用 $interview-resume-coach，面试官问：你为什么用 epoll 和线程池？请基于我的 C++ HTTP 服务器项目回答，要求有方案对比和风险点。
+使用 $interview-helper，面试官问：你为什么用 epoll 和线程池？请基于我的 C++ HTTP 服务器项目回答，要求有方案对比和风险点。
 ```
 
 ## Java 后端八股转项目
 
 ```text
-使用 $interview-resume-coach，面试官问：Redis 缓存一致性怎么保证？我简历里有一个 Spring Boot 项目用到了 Redis，请帮我把这个问题回答到项目里。
+使用 $interview-helper，面试官问：Redis 缓存一致性怎么保证？我简历里有一个 Spring Boot 项目用到了 Redis，请帮我把这个问题回答到项目里。
 ```
 
 ## 不会的问题
 
 ```text
-使用 $interview-resume-coach，面试官问：你们系统怎么做分布式事务？但我的项目没有做过。请帮我生成一个诚实但不露怯的回答。
+使用 $interview-helper，面试官问：你们系统怎么做分布式事务？但我的项目没有做过。请帮我生成一个诚实但不露怯的回答。
 ```
 
 ## 公司岗位适配
 
 ```text
-使用 $interview-resume-coach，我投的是偏基础架构的 C++ 后端岗位。请把我的项目回答改得更强调 Linux、并发、内存管理和性能分析。
+使用 $interview-helper，我投的是偏基础架构的 C++ 后端岗位。请把我的项目回答改得更强调 Linux、并发、内存管理和性能分析。
 ```
+

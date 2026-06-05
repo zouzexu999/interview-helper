@@ -119,3 +119,4 @@ For Java backend projects, look for:
 - MQ retry/idempotency if used
 - unified response and exception handling
 - authentication and permission checks
+

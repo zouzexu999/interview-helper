@@ -1,4 +1,4 @@
-# Interview Resume Coach Implementation Plan
+# Interview Helper Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -13,30 +13,30 @@
 ### Task 1: Skill Scaffold
 
 **Files:**
-- Create: `interview-resume-coach/SKILL.md`
-- Create: `interview-resume-coach/agents/openai.yaml`
-- Create: `interview-resume-coach/references/answer-patterns.md`
-- Create: `interview-resume-coach/references/resume-analysis.md`
-- Create: `interview-resume-coach/references/company-role-adaptation.md`
+- Create: `interview-helper/SKILL.md`
+- Create: `interview-helper/agents/openai.yaml`
+- Create: `interview-helper/references/answer-patterns.md`
+- Create: `interview-helper/references/resume-analysis.md`
+- Create: `interview-helper/references/company-role-adaptation.md`
 
 - [ ] **Step 1: Initialize the skill**
 
 Run:
 
 ```powershell
-python C:/Users/Administrator/.codex/skills/.system/skill-creator/scripts/init_skill.py interview-resume-coach --path e:/skills --resources references --interface display_name="Interview Resume Coach" --interface short_description="Turn resumes and projects into strong interview answers." --interface default_prompt="Use $interview-resume-coach to answer this interviewer question from my resume and project experience."
+python C:/Users/Administrator/.codex/skills/.system/skill-creator/scripts/init_skill.py interview-helper --path e:/skills --resources references --interface display_name="Interview Helper" --interface short_description="Turn resumes and projects into strong interview answers." --interface default_prompt="Use $interview-helper to answer this interviewer question from my resume and project experience."
 ```
 
-Expected: a new `interview-resume-coach` folder with required skill files.
+Expected: a new `interview-helper` folder with required skill files.
 
 ### Task 2: Core Skill Instructions
 
 **Files:**
-- Modify: `interview-resume-coach/SKILL.md`
+- Modify: `interview-helper/SKILL.md`
 
 - [ ] **Step 1: Replace scaffold text**
 
-Write frontmatter with `name: interview-resume-coach` and a description covering resume-based interview answering, project storytelling, deep-dive guidance, role/company adaptation, and Chinese job-seeking contexts.
+Write frontmatter with `name: interview-helper` and a description covering resume-based interview answering, project storytelling, deep-dive guidance, role/company adaptation, and Chinese job-seeking contexts.
 
 - [ ] **Step 2: Add workflow**
 
@@ -45,9 +45,9 @@ Define a workflow that extracts resume facts, identifies question intent, choose
 ### Task 3: Reference Files
 
 **Files:**
-- Modify: `interview-resume-coach/references/answer-patterns.md`
-- Modify: `interview-resume-coach/references/resume-analysis.md`
-- Modify: `interview-resume-coach/references/company-role-adaptation.md`
+- Modify: `interview-helper/references/answer-patterns.md`
+- Modify: `interview-helper/references/resume-analysis.md`
+- Modify: `interview-helper/references/company-role-adaptation.md`
 
 - [ ] **Step 1: Add answer patterns**
 
@@ -64,14 +64,15 @@ Include style changes for backend, frontend, data/AI, product-oriented, large co
 ### Task 4: Validation
 
 **Files:**
-- Validate: `interview-resume-coach`
+- Validate: `interview-helper`
 
 - [ ] **Step 1: Run quick validation**
 
 Run:
 
 ```powershell
-python C:/Users/Administrator/.codex/skills/.system/skill-creator/scripts/quick_validate.py e:/skills/interview-resume-coach
+python C:/Users/Administrator/.codex/skills/.system/skill-creator/scripts/quick_validate.py e:/skills/interview-helper
 ```
 
 Expected: validation passes.
+

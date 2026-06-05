@@ -1,4 +1,4 @@
-# Interview Resume Coach
+# Interview Helper
 
 中文技术岗应届生面试作战 skill。
 
@@ -29,12 +29,12 @@
 
 ## 安装
 
-把 `interview-resume-coach` 文件夹放到你的 Codex skills 目录中。
+把 `interview-helper` 文件夹放到你的 Codex skills 目录中。
 
 常见位置：
 
 ```text
-~/.codex/skills/interview-resume-coach
+~/.codex/skills/interview-helper
 ```
 
 或者在当前仓库里直接使用这个 skill 文件夹。
@@ -56,7 +56,7 @@ git status
 把你的简历、项目说明或目标 JD 放到：
 
 ```text
-interview-resume-coach/user-resumes/
+interview-helper/user-resumes/
 ```
 
 这个目录是给本地使用者放私人材料的。里面的真实简历文件会被 `.gitignore` 忽略，不应该上传到 GitHub。
@@ -72,13 +72,13 @@ interview-resume-coach/user-resumes/
 skill 会优先尝试自动提取文本。也可以手动运行：
 
 ```bash
-python interview-resume-coach/scripts/extract_resume_text.py interview-resume-coach/user-resumes
+python interview-helper/scripts/extract_resume_text.py interview-helper/user-resumes
 ```
 
 提取结果会生成在：
 
 ```text
-interview-resume-coach/user-resumes/combined-resume-extracted.txt
+interview-helper/user-resumes/combined-resume-extracted.txt
 ```
 
 文件名建议包含：
@@ -95,7 +95,7 @@ jd
 然后用类似 prompt：
 
 ```text
-使用 $interview-resume-coach，基于我的简历，帮我准备 Java 后端项目面试。
+使用 $interview-helper，基于我的简历，帮我准备 Java 后端项目面试。
 ```
 
 ```text
@@ -153,7 +153,7 @@ jd
 ## 仓库结构
 
 ```text
-interview-resume-coach/
+interview-helper/
   SKILL.md
   agents/openai.yaml
   references/
@@ -185,3 +185,4 @@ examples/
 - 在不了解项目的情况下硬背长稿
 
 面试里真正稳的是：你知道自己做了什么，也知道自己没做什么；能讲清取舍，比堆名词更有说服力。
+

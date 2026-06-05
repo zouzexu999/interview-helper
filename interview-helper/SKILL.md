@@ -1,9 +1,9 @@
 ---
-name: interview-resume-coach
+name: interview-helper
 description: Help Chinese new graduates and early-career technical candidates prepare interview answers from their real resume and projects. Use for Chinese software engineering interview coaching, resume-based project storytelling, Java/Go/C++ backend interview answers, frontend interview answers, AI/data project interviews, project deep dives, "项目吟唱", interviewer follow-up control, company and role adaptation, mock interviews, and honest recovery answers when the candidate lacks direct experience. The skill turns resume facts into practical engineering narratives without fabricating experience.
 ---
 
-# Interview Resume Coach
+# Interview Helper
 
 ## Mission
 
@@ -45,21 +45,21 @@ Use this skill when the user asks to:
 
 Look for inputs in this order:
 
-1. User-provided files in `interview-resume-coach/user-resumes/`, especially resume, project, and JD files.
+1. User-provided files in `interview-helper/user-resumes/`, especially resume, project, and JD files.
 2. Files in the current workspace whose names contain `resume`, `cv`, `简历`, `project`, `项目`, or `jd`.
 3. Pasted resume/project/JD content in the conversation.
 4. The explicit interviewer question.
 5. Target role, language, company type, and desired answer length.
 
-If resume content is unavailable, tell the user to put the resume or project note into `interview-resume-coach/user-resumes/`, or paste the relevant project paragraph. Do not pretend to know the candidate's experience.
+If resume content is unavailable, tell the user to put the resume or project note into `interview-helper/user-resumes/`, or paste the relevant project paragraph. Do not pretend to know the candidate's experience.
 
 When files in `user-resumes/` are PDF, DOCX, DOC, TXT, or MD, extract text before answering. Prefer running:
 
 ```text
-python interview-resume-coach/scripts/extract_resume_text.py interview-resume-coach/user-resumes
+python interview-helper/scripts/extract_resume_text.py interview-helper/user-resumes
 ```
 
-Then read `interview-resume-coach/user-resumes/combined-resume-extracted.txt` and any `*.extracted.txt` files. If extraction fails, say so explicitly and ask for a DOCX/TXT/MD version or pasted project text.
+Then read `interview-helper/user-resumes/combined-resume-extracted.txt` and any `*.extracted.txt` files. If extraction fails, say so explicitly and ask for a DOCX/TXT/MD version or pasted project text.
 
 ## Operating Workflow
 
@@ -136,3 +136,4 @@ For project preparation, output:
 ```
 
 For mock interviews, ask one interviewer-style question at a time, wait for the user's answer, then give feedback and a stronger version.
+
